@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.texto-destaque {
+    color: #22D4FD; ;
+}
+.header__menu{
+    
+    display: flex;
+    gap: 80px;
+    
+}
+
+.header__menu__link{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #22D4FD;/*
+    margin: 0 10px;
+    padding: 10px 15px;
+    
+    */
+}
+.header__menu__link:hover {
+    color: #007bff;
+}
+
+.presentacion {
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column; /*para que los hijos no queden en una linea*/
+    gap: 40px; /*separacion entre filas*/
+}
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.presentacion__contenido__parrafo{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+.presentacion__botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.presentacion__botones__subtitulo{
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+}
+
+.presentacion__botones__link{
+    width: 378px;
+    
+    text-align: center;
+    padding: 21.5px 0px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #F6F6F6;
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.presentacion__botones__link:hover{
+    background-color: #272727;
+    cursor: pointer;
+    /*border-color: #0000FF;*/
+}
+.footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
