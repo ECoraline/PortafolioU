@@ -123,6 +123,9 @@ body{
     .header__menu{
         justify-content: center;
     }
+    .header__menu__link{
+        font-size: 2rem;
+    }
     .presentacion{
         flex-direction: column-reverse;
         padding: 5%;
