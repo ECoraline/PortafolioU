@@ -68,6 +68,7 @@ body{
 .presentacion__contenido__parrafo{
     font-size: 1.5rem;
     font-family: var(--fuente-montserrat);
+    text-align: justify;
 }
 
 .presentacion__imagen{
